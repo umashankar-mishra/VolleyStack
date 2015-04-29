@@ -47,7 +47,7 @@ public class MainActivity extends ActionBarActivity implements Response.Listener
 
         try {
             params.put("api_key", Constant.CONST_API_KEY);
-            params.put("phone", "0123456789");
+            params.put("email", "email@tudip.com");
             params.put("password", "tudip123");
         } catch (JSONException e) {
             e.printStackTrace();
